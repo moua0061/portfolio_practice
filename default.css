@@ -16,9 +16,13 @@
     --buttonColor: black;
 }
 
-html, body{
+html, body {
     padding: 0;
     margin: 0;
+}
+
+body * {
+    transition: 0.3s;
 }
 
 h1, h2, h3, h4, h5, h6, strong {
@@ -100,6 +104,10 @@ p, li, span, label, input, textarea {
     align-items: center;
     background-color: var(--mainColor);
     border-radius: 5px;
+}
+
+#navigation a {
+    color: var(--mainText);
 }
 
 #navigation {
